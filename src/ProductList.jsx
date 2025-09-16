@@ -314,7 +314,7 @@ function ProductList({ onHomeClick }) {
                                     disabled = {addedToCart[plant.name]} 
                                 >
                                     {addedToCart[plant.name]? 'Added to Cart' : 'Add to Cart'}
-                                    Add to Cart
+                                    {/* Add to Cart */}
                                 </button>
                                 </div>
                             ))}
